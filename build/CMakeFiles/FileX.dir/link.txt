@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/FileX.dir/core/main.c.o CMakeFiles/FileX.dir/tui/tui.c.o -o FileX  -lcurses /usr/lib/x86_64-linux-gnu/libform.so 

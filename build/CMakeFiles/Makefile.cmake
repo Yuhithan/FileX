@@ -45,5 +45,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/texplorer.dir/DependInfo.cmake"
+  "CMakeFiles/FileX.dir/DependInfo.cmake"
   )

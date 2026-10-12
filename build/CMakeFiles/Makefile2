@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /workspaces/TExplorer/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/texplorer.dir/all
+all: CMakeFiles/FileX.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/texplorer.dir/clean
+clean: CMakeFiles/FileX.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/texplorer.dir
+# Target rules for target CMakeFiles/FileX.dir
 
 # All Build rule for target.
-CMakeFiles/texplorer.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/texplorer.dir/build.make CMakeFiles/texplorer.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/texplorer.dir/build.make CMakeFiles/texplorer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/TExplorer/build/CMakeFiles --progress-num=1,2,3 "Built target texplorer"
-.PHONY : CMakeFiles/texplorer.dir/all
+CMakeFiles/FileX.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileX.dir/build.make CMakeFiles/FileX.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileX.dir/build.make CMakeFiles/FileX.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/TExplorer/build/CMakeFiles --progress-num=1,2,3 "Built target FileX"
+.PHONY : CMakeFiles/FileX.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/texplorer.dir/rule: cmake_check_build_system
+CMakeFiles/FileX.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/TExplorer/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/texplorer.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FileX.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/TExplorer/build/CMakeFiles 0
-.PHONY : CMakeFiles/texplorer.dir/rule
+.PHONY : CMakeFiles/FileX.dir/rule
 
 # Convenience name for target.
-texplorer: CMakeFiles/texplorer.dir/rule
-.PHONY : texplorer
+FileX: CMakeFiles/FileX.dir/rule
+.PHONY : FileX
 
 # clean rule for target.
-CMakeFiles/texplorer.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/texplorer.dir/build.make CMakeFiles/texplorer.dir/clean
-.PHONY : CMakeFiles/texplorer.dir/clean
+CMakeFiles/FileX.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileX.dir/build.make CMakeFiles/FileX.dir/clean
+.PHONY : CMakeFiles/FileX.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

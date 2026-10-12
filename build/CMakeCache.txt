@@ -122,7 +122,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=TExplorer
+CMAKE_PROJECT_NAME:STATIC=FileX
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -200,6 +200,15 @@ CURSES_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
 CURSES_NCURSES_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libncurses.so
+
+//Value Computed by CMake
+FileX_BINARY_DIR:STATIC=/workspaces/TExplorer/build
+
+//Value Computed by CMake
+FileX_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+FileX_SOURCE_DIR:STATIC=/workspaces/TExplorer
 
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=

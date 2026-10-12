@@ -1,5 +1,7 @@
+
 cmake_minimum_required(VERSION 3.16)
-project(TExplorer C)
+
+project(FileX LANGUAGES C)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
@@ -12,8 +14,11 @@ add_executable(FileX
     tui/tui.c
 )
 
-target_include_directories(texplorer PRIVATE
+target_include_directories(FileX PRIVATE
     "${CMAKE_CURRENT_SOURCE_DIR}/include"
     ${CURSES_INCLUDE_DIRS}
 )
-target_link_libraries(texplorer PRIVATE ${CURSES_LIBRARIES})
+
+target_link_libraries(FileX PRIVATE
+    ${CURSES_LIBRARIES}
+)

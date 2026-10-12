@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named texplorer
+# Target rules for targets named FileX
 
 # Build rule for target.
-texplorer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 texplorer
-.PHONY : texplorer
+FileX: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FileX
+.PHONY : FileX
 
 # fast build rule for target.
-texplorer/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/texplorer.dir/build.make CMakeFiles/texplorer.dir/build
-.PHONY : texplorer/fast
+FileX/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileX.dir/build.make CMakeFiles/FileX.dir/build
+.PHONY : FileX/fast
 
 core/main.o: core/main.c.o
 .PHONY : core/main.o
 
 # target to build an object file
 core/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/texplorer.dir/build.make CMakeFiles/texplorer.dir/core/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileX.dir/build.make CMakeFiles/FileX.dir/core/main.c.o
 .PHONY : core/main.c.o
 
 core/main.i: core/main.c.i
@@ -142,7 +142,7 @@ core/main.i: core/main.c.i
 
 # target to preprocess a source file
 core/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/texplorer.dir/build.make CMakeFiles/texplorer.dir/core/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileX.dir/build.make CMakeFiles/FileX.dir/core/main.c.i
 .PHONY : core/main.c.i
 
 core/main.s: core/main.c.s
@@ -150,7 +150,7 @@ core/main.s: core/main.c.s
 
 # target to generate assembly for a file
 core/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/texplorer.dir/build.make CMakeFiles/texplorer.dir/core/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileX.dir/build.make CMakeFiles/FileX.dir/core/main.c.s
 .PHONY : core/main.c.s
 
 tui/tui.o: tui/tui.c.o
@@ -158,7 +158,7 @@ tui/tui.o: tui/tui.c.o
 
 # target to build an object file
 tui/tui.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/texplorer.dir/build.make CMakeFiles/texplorer.dir/tui/tui.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileX.dir/build.make CMakeFiles/FileX.dir/tui/tui.c.o
 .PHONY : tui/tui.c.o
 
 tui/tui.i: tui/tui.c.i
@@ -166,7 +166,7 @@ tui/tui.i: tui/tui.c.i
 
 # target to preprocess a source file
 tui/tui.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/texplorer.dir/build.make CMakeFiles/texplorer.dir/tui/tui.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileX.dir/build.make CMakeFiles/FileX.dir/tui/tui.c.i
 .PHONY : tui/tui.c.i
 
 tui/tui.s: tui/tui.c.s
@@ -174,7 +174,7 @@ tui/tui.s: tui/tui.c.s
 
 # target to generate assembly for a file
 tui/tui.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/texplorer.dir/build.make CMakeFiles/texplorer.dir/tui/tui.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FileX.dir/build.make CMakeFiles/FileX.dir/tui/tui.c.s
 .PHONY : tui/tui.c.s
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... texplorer"
+	@echo "... FileX"
 	@echo "... core/main.o"
 	@echo "... core/main.i"
 	@echo "... core/main.s"
