@@ -7,7 +7,7 @@ set(CMAKE_C_EXTENSIONS ON)
 
 find_package(Curses REQUIRED)
 
-add_executable(texplorer
+add_executable(FileX
     core/main.c
     tui/tui.c
 )
