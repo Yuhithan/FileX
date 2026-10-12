@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/texplorer.dir/core/main.c.o CMakeFiles/texplorer.dir/tui/tui.c.o -o texplorer  -lcurses /usr/lib/x86_64-linux-gnu/libform.so 

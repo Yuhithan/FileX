@@ -1,0 +1,3 @@
+/workspaces/TExplorer/build/CMakeFiles/texplorer.dir
+/workspaces/TExplorer/build/CMakeFiles/edit_cache.dir
+/workspaces/TExplorer/build/CMakeFiles/rebuild_cache.dir
